@@ -86,3 +86,44 @@ svg {
   width: 100%;
   height: 100%;
 }
+
+button {
+  border: 1px solid transparent;
+}
+
+button:hover {
+  border: 1px solid var(--color-4);
+}
+
+input[type="text"], input[type="number"] {
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+input[type="text"]:hover, input[type="number"]:hover {
+  border: 1px solid var(--color-4);
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 4px;
+  margin: 8px 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: span 2;
+  align-items: center;
+  justify-content: stretch;
+}
+
+input[type="checkbox"] {
+  padding: 0;
+  margin: 0;
+}
