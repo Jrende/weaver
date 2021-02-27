@@ -26,6 +26,10 @@ body {
   overflow: hidden;
 }
 
+body.dragging {
+  cursor: grabbing !important;
+}
+
 a {
   color: rgb(0,100,200);
   text-decoration: none;
@@ -111,7 +115,7 @@ input[type="text"]:hover, input[type="number"]:hover {
   margin: 8px 0;
 }
 
-fieldset {
+.controls fieldset {
   border: 0;
   margin: 0;
   padding: 0;
@@ -121,6 +125,10 @@ fieldset {
   grid-column: span 2;
   align-items: center;
   justify-content: stretch;
+}
+
+.controls fieldset input {
+  margin: 0;
 }
 
 input[type="checkbox"] {
