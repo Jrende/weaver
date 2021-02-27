@@ -1,0 +1,30 @@
+{
+  "page": {
+    "weave_settings": {
+      "shaft_count": "Skaft",
+      "treadle_count": "Trampor",
+      "warp_count": "Varptrådar",
+      "weft_count": "Inslag",
+      "save": "Spara"
+    },
+    "yarn_settings": {
+      "name": "Namn"
+    },
+    "pattern_fill": {
+      "mirrored_repeat": "Spegelvänd upprepning",
+      "warp_weft_title": "Trampor/solv",
+      "color_title": "Färger",
+      "apply": "Kör"
+    }
+  },
+  "terms": {
+    "warp": "Varp",
+    "weft": "Inslag",
+    "treadling": "Trampordning",
+    "threading": "Solvning",
+    "treadles": "Trampor",
+    "heddle": "Solv",
+    "color": "Färg"
+  }
+}
+

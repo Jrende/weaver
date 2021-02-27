@@ -1,0 +1,29 @@
+{
+  "page": {
+    "settings": {
+      "shaft_count": "Number of shafts",
+      "treadle_count": "Number of treadles",
+      "warp_count": "Number of warp threads",
+      "weft_count": "Number of weft threads",
+      "save": "Save"
+    },
+    "yarn_settings": {
+      "name": "Name"
+    },
+    "pattern_fill": {
+      "mirrored_repeat": "Mirrored repetition",
+      "warp_weft_title": "Threading/treadling",
+      "color_title": "Warp/weft colors",
+      "apply": "Apply"
+    }
+  },
+  "terms": {
+    "warp": "Warp",
+    "weft": "Weft",
+    "treadling": "Treadling",
+    "threading": "Threading",
+    "treadles": "Treadles",
+    "heddle": "Heddle",
+    "color": "Color"
+  }
+}
