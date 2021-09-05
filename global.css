@@ -47,12 +47,11 @@ label {
   display: block;
 }
 
-input, button, select, textarea {
+input, button, select, textarea, .button {
   font-family: inherit;
   font-size: inherit;
-  -webkit-padding: 0.4em 0;
   padding: 0.4em;
-  margin: 0 0 0.5em 0;
+  margin: 4px 0 0.5em 0;
   box-sizing: border-box;
   border: none;
 }
@@ -67,22 +66,23 @@ input:disabled {
   color: #ccc;
 }
 
-button {
+button, .button {
   color: #333;
   background-color: #f4f4f4;
   outline: none;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
-button:disabled {
+button:disabled, .button:disabled {
   color: #999;
 }
 
-button:not(:disabled):active {
+button:not(:disabled):active, .button:not(:disabled):active {
   background-color: #ddd;
 }
 
-button:focus {
+button:focus, .button:focus {
   border-color: #666;
 }
 
@@ -91,22 +91,14 @@ svg {
   height: 100%;
 }
 
-button {
-  border: 1px solid transparent;
-}
-
-button:hover {
+button:hover, .button:hover {
   border: 1px solid var(--color-4);
 }
 
-input[type="text"], input[type="number"] {
-  background-color: white;
-  border: 1px solid transparent;
+button:disabled:hover {
+  cursor: default;
 }
 
-input[type="text"]:hover, input[type="number"]:hover {
-  border: 1px solid var(--color-4);
-}
 
 .controls {
   display: grid;
