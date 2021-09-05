@@ -1,32 +1,32 @@
 {
-  "name": "Ottilia Weaver",
-  "short_name": "Ottilia",
+  "name": "Weaver",
+  "short_name": "Weaver",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#E4E1D2",
   "description": "Weaver",
   "icons": [{
-    "src": "images/touch/icon-48x48.png",
+    "src": "images/icon-48x48.png",
     "sizes": "48x48",
     "type": "image/png"
   }, {
-    "src": "images/touch/icon-72x72.png",
+    "src": "images/icon-72x72.png",
     "sizes": "72x72",
     "type": "image/png"
   }, {
-    "src": "images/touch/icon-96x96.png",
+    "src": "images/icon-96x96.png",
     "sizes": "96x96",
     "type": "image/png"
   }, {
-    "src": "images/touch/icon-14x144.png",
+    "src": "images/icon-14x144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "images/touch/icon-16x168.png",
+    "src": "images/icon-16x168.png",
     "sizes": "168x168",
     "type": "image/png"
   }, {
-    "src": "images/touch/icon-19x192-hq.png",
+    "src": "images/icon-19x192-hq.png",
     "sizes": "192x192",
     "type": "image/png"
   }]
