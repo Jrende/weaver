@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;user-scalable=0;">
+	<title>Web weaving application</title>
+	<link rel='icon' type='image/png' href='./favicon.png'>
+	<link rel='stylesheet' href='./global.css'>
+        <link rel="manifest" href="manifest.json">
+</head>
+<style>
+h1 {
+  margin-left: 2em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2em;
+}
+
+.icons img {
+    fill: var(--color-1);
+    stroke: var(--color-1);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.icons li div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.icons li div {
+  border-bottom: 1px solid black;
+}
+
+body {
+  display: block;
+}
+</style>
+
+<body>
+  <h1>Made by me</h1>
+  <section class="icons">
+    <h2> Icons from the <a href="https://thenounproject.com">Noun Project</a>:</h2>
+    <ul class="icon-list"></ul>
+  </section>
+</body>
+<script>
+  let icons = [
+      {
+        text: 'help by Baboon designs',
+        name: 'help'
+      },
+      {
+        text: 'Scarf by Sergey Demushkin',
+          name: 'scarf'
+      },
+      {
+        text: 'Yarn by Sergey Demushkin',
+          name: 'yarn'
+      }, 
+      {
+        text: 'add by Johan Ronsse',
+          name: 'add'
+      },
+      {
+        text: 'Repeat by Adrien Coquet',
+          name: 'repeat'
+      },
+      {
+        text: 'Save by Mahesh Keshvala',
+          name: 'save'
+      },
+      {
+        text: 'Upload by Gicon studio',
+          name: 'load'
+      },
+      {
+        text: 'repetition by Andrejs Kirma',
+          name: 'repetition'
+      }
+    ];
+
+    document.querySelector('.icon-list').innerHTML = icons.map(item => `<li><div>${item.text} <img src="images/icons/${item.name}.svg" /></div></li>`).join('');
+</script>
+</html>
